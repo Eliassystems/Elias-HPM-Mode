@@ -1,0 +1,41 @@
+﻿{
+    "test_id":  "HPM-EPIS-001",
+    "interpreted":  {
+                        "hpm_version":  "1.0",
+                        "claim":  "Evidence-supported inferred proposition",
+                        "classification":  "STRUCTURAL",
+                        "epistemic_state":  "INTERPRETED",
+                        "confidence":  "MODERATE",
+                        "admissible":  true,
+                        "completion_forced":  false,
+                        "reasons":  [
+                                        "INFERENCE_REQUIRED"
+                                    ]
+                    },
+    "unknown":  {
+                    "hpm_version":  "1.0",
+                    "claim":  "Unverified proposition",
+                    "classification":  "EMPIRICAL",
+                    "epistemic_state":  "UNKNOWN",
+                    "confidence":  "UNKNOWN",
+                    "admissible":  true,
+                    "completion_forced":  false,
+                    "reasons":  [
+                                    "EVIDENCE_NOT_ESTABLISHED"
+                                ]
+                },
+    "principle":  "Admissibility over completion; uncertainty remains an admissible epistemic state.",
+    "observed":  {
+                     "hpm_version":  "1.0",
+                     "claim":  "Control observation established",
+                     "classification":  "EMPIRICAL",
+                     "epistemic_state":  "OBSERVED",
+                     "confidence":  "HIGH",
+                     "admissible":  true,
+                     "completion_forced":  false,
+                     "reasons":  [
+
+                                 ]
+                 },
+    "hpm_version":  "1.0"
+}
