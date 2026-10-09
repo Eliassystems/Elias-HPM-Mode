@@ -1,0 +1,93 @@
+{
+  "contract_sha256": "B9D200662C29300231812116916FB70CF3DBB97FA5DFD4C9F970FF28B2315585",
+  "passed_tests": 10,
+  "python_version": "3.14.6",
+  "requirements_sha256": "A38962C4722519D089C56316AB80E651EAA47F88B7E13C281817E618BE8C4FFF",
+  "runtime_id": "HPM-v0.1-STANDALONE-RUNTIME",
+  "runtime_sha256": "F4EC18A852217FBE82C848C364AC5A005E85D8E9DD54DB3CAECEDFF10009ED4C",
+  "schema": "HPM-v0.1-BOUNDED-TEST-REPORT-v0.1",
+  "scope": "Synthetic standalone tests only; no real-world authentication or EIE integration established",
+  "status": "PASS",
+  "test_runner_sha256": "5FE093C9E4C0C0F9A3C2B4A940C255877851A4DF8C0B4281CCF59B3B67977E8C",
+  "tests": [
+    {
+      "detail": "Declared support assessed; evidence truth not independently verified",
+      "name": "Declared support",
+      "status": "PASS",
+      "test_id": "001"
+    },
+    {
+      "detail": "Declared conflict retained; no source priority inferred",
+      "name": "Declared contradiction",
+      "status": "PASS",
+      "test_id": "002"
+    },
+    {
+      "detail": "Missing declared support is not proof of falsehood",
+      "name": "No supporting relationship",
+      "status": "PASS",
+      "test_id": "003"
+    },
+    {
+      "detail": "Declared limitations retained",
+      "name": "Qualified evidence",
+      "status": "PASS",
+      "test_id": "004"
+    },
+    {
+      "detail": "Insufficient-input state; invalid reference rejected: HOLD - evidence relationship references missing identity",
+      "name": "Insufficient input and invalid reference",
+      "status": "PASS",
+      "test_id": "005"
+    },
+    {
+      "detail": [
+        {
+          "case": "duplicate evidence",
+          "rejection": "HOLD - duplicate evidence identity"
+        },
+        {
+          "case": "invalid evidence class",
+          "rejection": "HOLD - unsupported evidence class"
+        },
+        {
+          "case": "unauthorized relationship",
+          "rejection": "HOLD - unsupported evidence relationship"
+        },
+        {
+          "case": "injected authority field",
+          "rejection": "HOLD - invalid HPM evaluation envelope"
+        }
+      ],
+      "name": "Four adversarial injections rejected",
+      "status": "PASS",
+      "test_id": "006"
+    },
+    {
+      "detail": "Stable identities for identical inputs; claim mutation changes digests",
+      "name": "Determinism and input mutation",
+      "status": "PASS",
+      "test_id": "007"
+    },
+    {
+      "detail": "Input hash, evaluation hash and ID independently recomputed",
+      "name": "Independent digest recalculation",
+      "status": "PASS",
+      "test_id": "008"
+    },
+    {
+      "detail": "No input mutation; runtime identity and timezone checked",
+      "name": "Identity timestamp and non-mutation",
+      "status": "PASS",
+      "test_id": "009"
+    },
+    {
+      "detail": "Declared verification status alone does not establish claim support",
+      "name": "Declared verification boundary",
+      "status": "PASS",
+      "test_id": "010"
+    }
+  ],
+  "timestamp_utc": "20261009T150255345971Z",
+  "total_tests": 10
+}

@@ -30,3 +30,7 @@ This repository contains the source module, reproducible test, preserved run evi
 **Lock it. Log it. Prove it.**
 
 *Work is for Robots & Life is for Humans.*
+
+## Additional standalone HPM v0.1 evidence disclosure (9 October 2026)
+
+[HPM v0.1 — evidence-led standalone assessor](standalone-v0.1-evidence/README.md) records ten bounded local synthetic tests, a frozen evidence manifest, receipt, and public verification instructions. It is a **separate local evaluation contract**, not a replacement for the HPM v1.0 baseline above. The standalone runtime and test runner remain unpublished. EIE integration is not established.
